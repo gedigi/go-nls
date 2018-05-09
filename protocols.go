@@ -3,8 +3,9 @@ package nls
 import (
 	"regexp"
 
+	"errors"
+
 	"github.com/flynn/noise"
-	"github.com/pkg/errors"
 )
 
 //supported primitives

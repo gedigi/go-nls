@@ -19,8 +19,8 @@ import (
 
 	"bytes"
 
+	"errors"
 	"github.com/flynn/noise"
-	"github.com/pkg/errors"
 )
 
 const MaxPayloadSize = math.MaxUint16 - 16 /*mac size*/ - uint16Size /*data len*/

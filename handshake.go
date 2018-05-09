@@ -6,8 +6,8 @@ import (
 
 	"github.com/golang/protobuf/proto"
 
+	"errors"
 	"github.com/flynn/noise"
-	"github.com/pkg/errors"
 )
 
 var appPrologue = []byte("NLS(revision2)")

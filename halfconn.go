@@ -8,8 +8,8 @@ import (
 
 	"fmt"
 
+	"errors"
 	"github.com/flynn/noise"
-	"github.com/pkg/errors"
 )
 
 //halfConn represents inbound or outbound connection state with its own cipher
